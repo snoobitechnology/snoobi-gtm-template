@@ -15,5 +15,5 @@
 homepage: "https://www.snoobi-technology.com/"
 documentation: "https://www.snoobi-technology.com/"
 versions:
-  - sha: 7cced90eaa03744719211b3a908ab11a9689855c
+  - sha: eac55ddb2cb55e201e61cd41a53bf9ce4bf8c932
     changeNotes: Initial release.
