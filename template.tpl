@@ -63,9 +63,9 @@ const encodeUriComponent = require('encodeUriComponent');
 
 var host="eu2.snoobi.eu";
 
-if(data.environment=="eu2.snoobi.com") { host="eu2.snoobi.eu"; }
+if(data.environment=="eu2.snoobi.com") { host="eu2.snoobi.com"; }
 
-const url="https://"+host+"/?foo=bar&account="+encodeUriComponent(data.account);
+const url="https://"+host+"/?account="+encodeUriComponent(data.account);
 
 const onSuccess = () => { data.gtmOnSuccess(); };
 
